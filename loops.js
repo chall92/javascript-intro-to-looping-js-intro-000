@@ -1,4 +1,9 @@
 function forLoop(array) {
   for (let i = 0; i < 25; i++)
-  return `array[i] ${i === 0 ? '' : 's'}."`
-}
+  if(i = 1) {
+    return `${array[i]}`
+  }
+  else {
+    return `${array[i]'s'}`
+  }
+  }
