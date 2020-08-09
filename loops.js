@@ -3,7 +3,7 @@ function forLoop(array) {
 if(i < 2) { console.log(${array[i]})
 }
 else { console.log(${array[i]/'s'})
-  
+
 }
 
 }
