@@ -1,7 +1,5 @@
 function forLoop(array) {
-  let array = i
   for (let i = 0; i < 25; i++)
-  `${array[i]}`
-  return `{"I am ${i} strange loop${i === 0 || i > 1? 's' : ''}."`
+  return i === 0 || i > 1 ? `'I am ${i} strange loops.'` : `I am 1 strange loop.`
 
 }
