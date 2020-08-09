@@ -3,4 +3,4 @@ function forLoop(array) {
   `${array[i]}`
   return `{"I am ${i} strange loop${i === 0 || i > 1? 's' : ''}."`
 
-  }
+}
